@@ -115,3 +115,69 @@ button:hover {
     opacity: 1;
   }
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .heart {
+    font-size: 3em;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin: 15px 0;
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 15px 0;
+  }
+
+  .hearts {
+    margin-top: 30px;
+  }
+
+  .hearts span {
+    font-size: 1.5em;
+    margin: 0 5px;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1em;
+    margin: 15px 0;
+  }
+
+  #extraMessages p {
+    font-size: 1em;
+    margin: 8px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .heart {
+    font-size: 2.5em;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p {
+    font-size: 1.1em;
+  }
+
+  .hearts span {
+    font-size: 1.3em;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+  }
+}
